@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/about', 'Pages::about');
+$routes->get('/form', 'Home::myform');
 
 $routes->get('/about-us',[Pages::class,'index']);
 
