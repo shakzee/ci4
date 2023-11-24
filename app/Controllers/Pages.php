@@ -9,4 +9,13 @@ class Pages extends BaseController
         echo 'pages class/controller';
         //return view('welcome_message');
     }
+
+  public function about(){
+    echo 'about method in pages controller..';
+    }
+    public function user($one,$two){
+            echo $one;
+            echo '<br>';
+            echo $two;
+        }
 }
