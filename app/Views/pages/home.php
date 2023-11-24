@@ -6,6 +6,9 @@
     <title>Ci4</title>
 </head>
 <body>
-    <h1>welcome in ci4</h1>
+    <h1>welcome in ci4 view
+        <?= $id ?>
+        <?= $name ?>
+</h1>
 </body>
 </html>
