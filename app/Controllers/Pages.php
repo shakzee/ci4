@@ -6,6 +6,9 @@ class Pages extends BaseController
 {
     public function index()
     {
+      echo form_open('','');
+        echo form_close();
+        die('');
         echo 'pages class/controller';
         //return view('welcome_message');
     }

@@ -6,7 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-        helper('form');
+        myfunction();
+        // echo form_open('','');
+        // echo form_close();
+        die('');
         // $data['id'] =  90;
         // $data['name'] =  'john';
         // $data['array'] =  ['user'=>'wick'];
